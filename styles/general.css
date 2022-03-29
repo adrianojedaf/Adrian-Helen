@@ -18,6 +18,10 @@ main {
   margin-top: 150px;
 }
 
+main + footer {
+  margin-top: 80px;
+}
+
 @media(max-width: 920px) {
   main {
     margin-top: 80px;
