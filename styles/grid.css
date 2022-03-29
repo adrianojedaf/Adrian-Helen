@@ -1,0 +1,25 @@
+.grid {
+  display: flex;
+}
+
+.column + .column {
+  margin-left: 30px;
+}
+
+.column img {
+  object-fit: contain;
+}
+
+.column {
+  overflow: hidden;
+}
+
+@media(max-width: 700px) {
+  .grid-2-col{
+    display: block;
+  }
+
+  .column + .column {
+    margin-left: 0;
+  }  
+}

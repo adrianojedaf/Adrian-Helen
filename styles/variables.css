@@ -1,0 +1,19 @@
+
+:root {
+/*Farben*/
+  --color-primary: #3c9d52;
+  --color-secondary: #3cac96;
+  --color-tertiary: #A2D5AB;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-yellow: #eff594;
+
+  
+  /*content padding*/
+  --content-padding: 0 30px;
+
+  /*Z-indexes*/
+  --z-index-stage: 99;
+  --z-index-1: 1;
+}
+

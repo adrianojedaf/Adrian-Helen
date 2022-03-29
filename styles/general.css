@@ -1,0 +1,25 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  hyphens: auto;
+}
+
+main {
+  max-width: var(--content-width-medium);
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+@media(max-width: 920px) {
+  main {
+    margin-top: 80px;
+  }
+}
