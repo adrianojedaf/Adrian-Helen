@@ -1,0 +1,4 @@
+snap
+
+in html: 
+scroll-snap-type: y mandatory;
