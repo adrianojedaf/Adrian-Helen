@@ -31,6 +31,10 @@
         width: 3rem;
     }
 
+    .sponsor .top li:nth-child(2) img {
+        width: 2.5rem;
+    }
+
     .sponsor .bottom li:first-child img,
     .sponsor .bottom li:nth-child(5) img {
         width: 2.5rem;
