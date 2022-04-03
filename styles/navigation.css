@@ -29,13 +29,13 @@ nav ul {
 nav ul li {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom .3s ease-in;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom .2s ease-in;
   cursor: pointer;
 }
 
 nav ul li:hover {
-  border-bottom: 2px solid var(--color-white);
+  border-bottom: 3px solid var(--color-white);
 }
 
 nav ul li a {
@@ -53,8 +53,7 @@ nav ul li + li {
   width: 200px;
   padding: 5px;
   border-radius: 5px;
-  border-bottom: 2px solid var(--color-white);
-  border-left: 2px solid var(--color-white);
+  border: 3px solid var(--color-white);
 }
 
 .login-icon {
@@ -97,8 +96,16 @@ nav ul li + li {
     display: none;
   }
 
+  nav ul li {
+    border-bottom: 0px;
+  }
+
+  nav ul li:hover {
+    border-bottom: 0px;
+  }
+
   nav ul li + li {
-    margin-left: 15px;
+    margin-left: 10px;
   }
 
   nav ul li img {
