@@ -73,7 +73,17 @@ footer .informationen {
     display: flex;
 }
 
-@media(max-width: 450px) {
+footer .payment {
+    width: 100%;
+    max-width: 20rem;
+}
+
+footer .payment img{
+    width: 100%;
+    max-width: 18rem;
+}
+
+@media(max-width: 890px) {
     .footer-wrap {
         flex-wrap: wrap;
     }
