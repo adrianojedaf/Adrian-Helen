@@ -2,3 +2,13 @@ snap
 
 in html: 
 scroll-snap-type: y mandatory;
+
+about us: https://www.techstage.de/bestenliste/top-10-die-besten-e-scooter-2022-ab-300-euro-im-test/1wx49v3
+
+warum unsere Produkte die besten auf dem Markt sind?
+- akkukapazität
+- bremsen
+- Reifen (grip)
+- Gewicht (mas portabilidad)
+- Design
+- Prices
