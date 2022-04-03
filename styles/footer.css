@@ -3,16 +3,40 @@ footer {
     padding: 10px 0;
 }
 
+.footer-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 footer ul {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 20px;
+}
+
+footer ul:last-child {
+    margin-right: 0;
 }
 
 footer li {
     color: var(--color-black);
     opacity: .7;
+}
+
+footer .Kundenkonto li:nth-child(n + 2)::before, 
+footer .informationen li:nth-child(n + 2)::before {
+    content: '- ';
+}
+
+/*inhalt (nicht titel)*/
+footer li:nth-child(n + 2) {
+    font-size: .95rem;
+    opacity: .6;
 }
 
 footer a {
@@ -25,32 +49,32 @@ footer img {
     margin-right: 20px;
 }
 
-footer li + li {
-    margin-left: 2.5rem;
-}
-
 footer .content-wrap {
     display: flex;
     justify-content: space-between;
 }
 
-footer .left li {
+footer .kontakt li {
     display: flex;
     align-items: center;
 }
 
-footer .left li:first-child {
-    border-bottom: 2px solid var(--color-white);
+footer li:first-child {
+    border-bottom: .2rem solid var(--color-white);
     width: fit-content;
     padding-bottom: 3px;
 }
 
-footer .left li + li {
-    margin-left: unset;
-    margin-top: 15px;
+footer li + li {
+    margin-top: 10px;
 }
 
-footer .right {
+footer .informationen {
     display: flex;
 }
 
+@media(max-width: 450px) {
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+}
