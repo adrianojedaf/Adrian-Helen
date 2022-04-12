@@ -15,11 +15,11 @@ body {
 main {
   max-width: var(--content-width-medium);
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 6rem;
 }
 
 main > * + * {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 @media(max-width: 920px) {
