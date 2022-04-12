@@ -16,19 +16,4 @@
   max-width: 600px;
 }
 
-.content-wrap + .content-wrap {
-  margin-top: 100px;
-}
-
-@media(max-width: 820px) {
-  .content-wrap + .content-wrap {
-    margin-top: 80px;
-  }
-}
-
-@media(max-width: 520px) {
-  .content-wrap + .content-wrap {
-    margin-top: 40px;
-  }
-}
 
