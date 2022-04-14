@@ -27,6 +27,7 @@ nav ul {
 }
 
 nav ul li {
+  position: relative;
   display: flex;
   align-items: center;
   border-bottom: 3px solid transparent;
@@ -39,10 +40,17 @@ nav ul li:hover {
 }
 
 nav ul li a {
+  display: inline-block;
   color: var(--color-black);
   opacity: .7;
   text-decoration: none;
-  padding: 10px 0;
+  padding: 10px 1.5rem 10px 0;
+}
+
+nav ul li img {
+  position: absolute;
+  right: 0;
+  pointer-events: none;
 }
 
 nav ul li + li {
