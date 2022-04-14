@@ -1,0 +1,42 @@
+#social-media-bar img {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    opacity: 0.5;
+}
+
+#social-media-bar{
+    position: fixed;
+    top:20%;
+    right: 1%;
+}
+
+#social-media-bar img:hover{
+transform: scale(1.2);
+opacity: 1;
+transition: width 1s ease-in-out;
+padding-bottom: 20px;
+padding-top: 5px;
+}
+
+@media(max-width: 820px) {
+    #social-media-bar img {
+        width: 25px;
+        padding-bottom: 10px;
+  }
+  #social-media-bar img:hover{
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
+}
+  @media(max-width: 520px) {
+    #social-media-bar img {
+        width: 20px;
+        padding-bottom: 8px;
+  }
+  #social-media-bar img:hover{
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+}
