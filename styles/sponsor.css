@@ -1,3 +1,7 @@
+.sponsor-container {
+  background: var(--color-gray);
+  padding: 3rem 0;
+}
 
 .sponsor img {
     width: 5rem;

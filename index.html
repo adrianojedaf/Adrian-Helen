@@ -21,6 +21,8 @@
     <link href="styles/footer.css" rel="stylesheet" type="text/css" />
     <link href="styles/sponsor.css" rel="stylesheet" type="text/css" />
     <link href="styles/ueber-uns.css" rel="stylesheet" type="text/css" />
+    <link href="styles/products.css" rel="stylesheet" type="text/css" />
+    <style src="js\scrollbar.js"></style>
   </head>
   <body>
 
@@ -30,9 +32,9 @@
         <div class="content-wrap content-wrap-max">
           <a href="index.html"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
-            <li><a href="">Über uns</a><img src="images/icons/ueberuns.png" class="about-icon"></li>
-            <li><a href="">Produkte</a><img src="images/icons/shopping.png" class="shopping-icon"></li>
-            <li><a href="">Anmelden</a><img src="images/icons/login.png" class="login-icon"></li>
+            <li><a class="ueber-uns" href="">Über uns</a><img src="images/icons/ueberuns.png" class="about-icon"></li>
+            <li><a class="produkte" href="">Produkte</a><img src="images/icons/shopping.png" class="shopping-icon"></li>
+            <li><a class="anmelden" href="">Anmelden</a><img src="images/icons/login.png" class="login-icon"></li>
           </ul>
         </div>
       </nav>
@@ -53,9 +55,15 @@
 
       <!--ABOUT US-->
       <div class="content-wrap content-wrap-medium">
+        <div id="social-media-bar">
+          <a href="https://www.instagram.com"><img src="images\icons\instagram.png" alt="#"></a>
+          <a href="https://www.facebook.com"><img src="images\icons\facebook.png" alt="#"></a>
+          <a href="https://twitter.com"><img src="images\icons\twitter.png" alt="#"></a>
+        </div>
         <div class="ueber-uns">
           <h2>Wir sind <span>Xcooter</span>!</h2>
-          <p>Ab 2020 bieten wir die besten Scooter an, die es je gab. Wir unterscheiden uns durch die recycelbaren, aber hochwertigen Materialien, die wir für die Konstruktion der einzelnen Komponenten verwenden. Unsere Technologie und unser Service sind unübertroffen.</p>
+          <p>Seit 2020 sind wir für Sie da!<br>
+          Jetzt können Sie die besten Scooter auf dem heutigen Markt mieten und nutzen. Genießen Sie den besten Service zum besten Preis. Darüber hinaus ist sehr einfach, mit der Nutzung unserer Scooter-Services zu beninnen!</p>
         </div>
       </div>
 
@@ -67,28 +75,28 @@
           <div class="items-wrapper">
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/battery.png" alt="">
+                <img src="images/ueber-uns-items/price.png" alt="">
               </div>
               <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
   
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/weight.png" alt="">
+                <img src="images/ueber-uns-items/easy.png" alt="">
               </div>
               <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
   
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/wheel.png" alt="">
+                <img src="images/ueber-uns-items/nature.png" alt="">
               </div>
               <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/breaks.png" alt="">
+                <img src="images/ueber-uns-items/clock.png" alt="">
               </div>
               <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -111,7 +119,67 @@
         </div>
       </div>
       
+ <!---PRODUCTS---->
+ <div class="content-wrap content-wrap-max">
+  <div class="ueber-uns">
+    <h2>UNSERE <span>Xcooter</span>!</h2>
+    </div>
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\51++oK9rDeL._AC_SX679_.jpg" alt="EScooter Power Core E90">
+        <h4>Razor Power Core E90</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\51VVYG3dmwL._AC_SX679_.jpg" alt="Xiaomi Mi Electric Scooter">
+        <h4>Xiaomi Mi Electric</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\61AI+xNvTWL._AC_SX679_.jpg" alt="Ninebot KickScooter ES1LD">
+        <h4>Ninebot KickScooter ES1LD</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\71+5A-BxKLL._AC_SY879_.jpg" alt="HUDORA Big Wheel Bold 205">
+        <h4>HUDORA Big Wheel Bold 205</h4>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\51ZLKm4tlVL._AC_SX679_.jpg" alt="Albott Pro Stunt">
+        <h4>Albott Pro Stunt</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\71wBhMp2RLL._AC_SX679_.jpg" alt="Xiaomi Mi Electric Scooter">
+        <h4>Xiaomi Mi Electric 2</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\614guP-30iL._AC_SX679_.jpg" alt="DILALIE Stunt Scooter">
+        <h4>DILALIE Stunt </h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <img src="images\scooters\719Z6Ev9t-L._AC_SY879_.jpg" alt="Schildkröt Stunt Scooter 360">
+        <h4>Schildkröt Stunt Scooter 360</h4>
+      </div>
+    </div>
+  </div>
+  
+
       <!--SPONSOREN-->
+      <div class="sponsor-container">
       <div class="content-wrap content-wrap-small sponsor">
         <h3>Unsere Sponsoren</h3>
         <ul class="top">
@@ -129,9 +197,10 @@
           <li><img src="images/sponsor/tinder.png"></li>
         </ul>
       </div>
-      
+      </div>
     </main>
 
+    <!--FOOTER-->
     <footer>
       <div class="content-wrap content-wrap-max">
         <div class="footer-wrap">
@@ -139,6 +208,7 @@
             <li>Kontakt</li>
             <li><img src="images/icons/viber.png">+49 05226 10 00 51</li>
             <li><img src="images/icons/email.png"><a href="mailto:xcooter@gmail.com" target="_blank">xcooter@gmail.com</a></li>
+            <li>Mo-Sa von 9:00-20:00 Uhr</li>
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
@@ -150,13 +220,15 @@
             <li><a href="">AGB</a></li>
           </ul>
           <ul class="payment">
-            <li>payment</li>
+            <li>Sichere Zahlung</li>
             <li><img src="images/payment.png" alt=""></li>
           </ul>
         </div>
       </div>
     </footer>
     
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="scroll-down.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
