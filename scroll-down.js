@@ -20,7 +20,7 @@ $(document).ready(function() {
     e.preventDefault();
     
     $('html,body').animate({
-      scrollTop: $(window).height() - header.height() + 1000
+      scrollTop: $(window).height() - header.height() + 800
     }, 'slow');
   });
                                               
