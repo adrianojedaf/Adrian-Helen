@@ -11,10 +11,16 @@
 
   
   /*content padding*/
-  --content-padding: 0 30px;
+  --content-padding: 0 100px;
 
   /*Z-indexes*/
   --z-index-stage: 99;
   --z-index-1: 1;
+}
+
+@media(max-width: 1024px) {
+  :root {
+    --content-padding: 0 30px;
+  }
 }
 
