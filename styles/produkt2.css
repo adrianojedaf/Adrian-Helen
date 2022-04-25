@@ -1,7 +1,15 @@
 .produkt-container {
     position: relative;
     border-bottom: .3rem solid black;
+    text-align: center;
 }
+
+.produkt-container h2 span{
+    border: 3px solid var(--color-secondary);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
 .produkt-container-wrapper {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
