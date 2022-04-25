@@ -64,6 +64,7 @@
     transform: translateX(-50%);
     cursor: pointer;
     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 @media(max-width: 1160px) {
