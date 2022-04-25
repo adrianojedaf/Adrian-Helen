@@ -28,8 +28,6 @@ nav ul {
 
 nav ul li {
   position: relative;
-  display: flex;
-  align-items: center;
   border-bottom: 3px solid transparent;
   transition: border-bottom .2s ease-in;
   cursor: pointer;
@@ -50,7 +48,6 @@ nav ul li a {
 nav ul li img {
   position: absolute;
   right: 0;
-  pointer-events: none;
 }
 
 nav ul li + li {
@@ -94,13 +91,16 @@ nav ul li + li {
 }
 
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
 
   .logo {
     width: 120px;
   }
   
-  nav ul li a {
+  nav ul li a  {
+    padding-top: 0;
+  }
+  nav ul li a span {
     display: none;
   }
 
@@ -113,7 +113,7 @@ nav ul li + li {
   }
 
   nav ul li + li {
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   nav ul li img {
