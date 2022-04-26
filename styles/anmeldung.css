@@ -20,11 +20,11 @@
   flex-direction: column;
 }
 
-.anmeldung label + input {
+.anmeldung label + .feld {
   margin-top: .6rem;
 }
 
-.anmeldung input + label {
+.anmeldung .feld + label {
   margin-top: 1rem;
 }
 
@@ -32,13 +32,24 @@
   width: 100%;
   font-weight: bold;
 }
-.anmeldung input {
+
+.anmeldung .feld {
   width: calc(100% - 1.6rem);
   padding: .7rem;
   display: inline-block;
+  outline: 2px solid transparent;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.anmeldung .feld:focus {
+  outline: 2px solid var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
 .anmeldung .button {
   width: fit-content;
   margin: 2rem 0;
 }
+
+
