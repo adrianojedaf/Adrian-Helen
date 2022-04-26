@@ -1,14 +1,20 @@
-#social-media-bar {
-    position: fixed;
-    top: 20%;
+.social-media-bar {
+    position: absolute;
+    top: calc(100vh + 150px);
     right: 10px;
     background: var(--color-tertiary);
     padding: .6rem;
     border-radius: 5px;
     width: 25px;
+    z-index: 999;
 }
 
-#social-media-bar a {
+.isFixed {
+    position: fixed;
+    top: 150px;
+}
+
+.social-media-bar a {
     width: 100%;
     
     display: flex;
@@ -16,23 +22,23 @@
     color: var(--color-white);
 }
 
-#social-media-bar a + a {
+.social-media-bar a + a {
     margin-top: .8rem;
 }
 
-#social-media-bar img {
+.social-media-bar img {
     opacity: .5;
     transition: transform .2s, color .2s;
     object-fit: cover;
 }
 
-#social-media-bar img:hover {
+.social-media-bar img:hover {
     transform: scale(1.15);
     opacity: .8;
 }
 
 @media(max-width: 1024px) {
-    #social-media-bar {
+    .social-media-bar {
         display: none;
     }
 }
