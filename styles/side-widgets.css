@@ -46,9 +46,13 @@
     flex-direction: column;
 }
 
+.social-media-bar-mobile .links{
+    margin-top: 1.5rem;
+}
+
 .social-media-bar-mobile img {
     opacity: .5;
-    width: 50px;
+    width: 40px;
     transition: opacity .2s;
 }
 
