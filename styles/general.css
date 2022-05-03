@@ -62,10 +62,6 @@ header + main {
   margin-top: 10rem;
 }
 
-main + footer {
-  margin-top: 5rem;
-}
-
 @media(max-width: 920px) {
   main {
     margin-top: 80px;
