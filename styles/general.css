@@ -16,7 +16,7 @@ main {
   max-width: var(--content-width-medium);
   margin: 0 auto;
   margin-top: 6rem;
-  min-height: calc(100vh - 269px);
+  min-height: calc(100vh - 333px);
 }
 
 main > * + * {
@@ -58,6 +58,9 @@ main > * + * {
   padding-right: .2rem;
 }
 
+header + main {
+  margin-top: 10rem;
+}
 
 @media(max-width: 920px) {
   main {

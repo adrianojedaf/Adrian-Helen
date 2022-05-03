@@ -91,9 +91,3 @@ footer .payment img{
     grid-template-columns: 1fr;
 }
 }
-
-.impressum {
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-}
