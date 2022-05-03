@@ -16,7 +16,7 @@ main {
   max-width: var(--content-width-medium);
   margin: 0 auto;
   margin-top: 6rem;
-  min-height: calc(100vh - 333px);
+  min-height: calc(100vh - 365px);
 }
 
 main > * + * {
@@ -58,8 +58,12 @@ main > * + * {
   padding-right: .2rem;
 }
 
-header + main {
-  margin-top: 10rem;
+main.impressum  {
+  margin: 9rem 0 3rem 0;
+}
+
+main.impressum + footer {
+  margin-top: 3rem;
 }
 
 @media(max-width: 920px) {
@@ -67,3 +71,4 @@ header + main {
     margin-top: 80px;
   }
 }
+

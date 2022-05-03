@@ -79,7 +79,6 @@ footer .payment img{
     max-width: 18rem;
 }
 
-
 @media(max-width: 650px) {
   .footer-wrap {
     grid-template-columns: repeat(2, 1fr);
