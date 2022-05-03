@@ -15,7 +15,6 @@ $(document).ready(function() {
     });
   })
 
-
   produkteLink.on('click', function(e) {
     e.preventDefault();
     

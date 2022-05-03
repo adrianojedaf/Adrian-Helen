@@ -1,6 +1,7 @@
 .ueber-uns {
     text-align: center;
 }
+
 .ueber-uns h2 span{
     border: 3px solid var(--color-secondary);
     padding: 0 5px;
@@ -11,9 +12,7 @@
     font-size: 1.6rem;
 }
 
-
 /*items*/
-
 .ueber-uns-items {
     width: 100%;
 }
@@ -71,12 +70,12 @@
   .items-wrapper {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
-}
+    }
 }
   
 @media(max-width: 350px) {
   .items-wrapper {
     grid-template-columns: 1fr;
     row-gap: 1rem;
-}   
+    }   
 }

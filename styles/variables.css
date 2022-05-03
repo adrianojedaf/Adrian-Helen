@@ -1,4 +1,3 @@
-
 :root {
 /*Farben*/
   --color-primary: #3c9d52;
@@ -9,11 +8,10 @@
   --color-yellow: #e0bd7d;
   --color-gray: rgba(225, 225, 225, 0.4);
 
-  
-  /*content padding*/
+/*content padding*/
   --content-padding: 0 100px;
 
-  /*Z-indexes*/
+/*Z-indexes*/
   --z-index-stage: 99;
   --z-index-1: 1;
 }

@@ -79,8 +79,7 @@ nav ul li + li {
   margin-left: 5px;
 }
 
-@media (max-width: 900px) {
-  
+@media(max-width: 900px) {
   .logo {
     width: 100px;
   }
@@ -91,8 +90,7 @@ nav ul li + li {
 }
 
 
-@media (max-width: 480px) {
-
+@media(max-width: 480px) {
   .logo {
     width: 120px;
   }
