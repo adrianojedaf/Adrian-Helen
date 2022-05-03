@@ -16,6 +16,7 @@ main {
   max-width: var(--content-width-medium);
   margin: 0 auto;
   margin-top: 6rem;
+  min-height: calc(100vh - 269px);
 }
 
 main > * + * {
