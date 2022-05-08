@@ -35,7 +35,7 @@
 }
 
 .stage .text h1 span{
-  color: var(--color-primary);
+  color: var(--color-tertiary);
 }
 
 .stage-button {

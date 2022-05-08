@@ -1,7 +1,7 @@
 @import "/variables.css";
 
 nav {
-  background: var(--color-tertiary);
+  background: var(--color-primary);
   box-shadow: 0px 15px 10px -15px rgba(0,0,0,0.21);
   position: fixed;
   top: 0;

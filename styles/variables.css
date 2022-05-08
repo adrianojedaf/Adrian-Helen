@@ -1,17 +1,16 @@
 :root {
-/*Farben*/
-  --color-primary: #3c9d52;
-  --color-secondary: #3e8576;
-  --color-tertiary: #A2D5AB;
+  /*Farben*/
   --color-black: #000000;
   --color-white: #ffffff;
-  --color-yellow: #e0bd7d;
+  --color-primary: #A2D5AB;
+  --color-secondary: #3e8576;
+  --color-tertiary: #3c9d52;
   --color-gray: rgba(225, 225, 225, 0.4);
 
-/*content padding*/
+  /*content padding*/
   --content-padding: 0 100px;
 
-/*Z-indexes*/
+  /*Z-indexes*/
   --z-index-stage: 99;
   --z-index-1: 1;
 }
