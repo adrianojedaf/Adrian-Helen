@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
+    <!--Meta Tags-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Scooterverleih pro Tag">
+    <!--Page Titel-->
     <title>COOTER</title>
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--Page Favicon-->
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <!--CSS Dateien-->
     <link href="styles/content-wrap.css" rel="stylesheet" type="text/css" />
     <link href="styles/general.css" rel="stylesheet" type="text/css" />
     <link href="styles/navigation.css" rel="stylesheet" type="text/css" />
@@ -29,9 +35,9 @@
         <div class="content-wrap content-wrap-max">
           <a href="index.html"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
-            <li><a class="ueber-uns" href=""><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon"></a></li>
-            <li><a class="produkte" href=""><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon"></a></li>
-            <li><a class="anmelden" href="anmeldung.html"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon"></a></li>
+            <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
+            <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
+            <li><a class="anmelden" href="anmeldung.html"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
           </ul>
         </div>
       </nav>
@@ -44,21 +50,21 @@
         <div class="content-wrap content-wrap-medium text">
           <h1>Schonen Sie die <span>Umwelt</span>, genießen Sie die <span>Geschwindigkeit</span> und den  <span>Komfort</span>.</h1>
         </div>
-          <button class="stage-button">Mehr erfahren <img src="images/icons/chevron-down.png"></button>
+          <button class="stage-button">Mehr erfahren <img src="images/icons/chevron-down.png" alt="Abwärtspfeil icon"></button>
       </div>
     </header>
     
     <main>
       <!-- Side-Widgets -->
       <div class="social-media-bar">
-        <a href="https://www.instagram.com"><img src="images/icons/instagram.png" alt="#"></a>
-        <a href="https://www.facebook.com"><img src="images/icons/facebook.png" alt="#"></a>
-        <a href="https://twitter.com"><img src="images/icons/twitter.png" alt="#"></a>
+        <a href="https://www.instagram.com"><img src="images/icons/instagram.png" alt="instagram icon"></a>
+        <a href="https://www.facebook.com"><img src="images/icons/facebook.png" alt="facebook icon"></a>
+        <a href="https://twitter.com"><img src="images/icons/twitter.png" alt="twitter icon"></a>
       </div>
 
       <!--ABOUT US-->
       <div class="content-wrap content-wrap-medium">
-        <div class="ueber-uns">
+        <div class="ueber-uns" id="about">
           <h2>Wir sind <span>Xcooter</span>!</h2>
           <p>Seit 2020 sind wir für Sie da!<br>
           Jetzt können Sie die besten Scooter auf dem heutigen Markt mieten und nutzen. Genießen Sie den besten Service zum besten Preis. Darüber hinaus ist sehr einfach, mit der Nutzung unserer Scooter-Services zu beninnen!</p>
@@ -73,7 +79,7 @@
           <div class="items-wrapper">
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/price.png" alt="">
+                <img src="images/ueber-uns-items/price.png" alt="Dollar symbol">
               </div>
               <p class="description">Bester Service zum besten Preis!<br>
                 15 Euro pro Tag</p>
@@ -81,21 +87,21 @@
   
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/easy.png" alt="">
+                <img src="images/ueber-uns-items/easy.png" alt="Hand">
               </div>
               <p class="description">Einfach zu mieten und zu benutzen</p>
             </div>
   
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/nature.png" alt="">
+                <img src="images/ueber-uns-items/nature.png" alt="Bäume">
               </div>
               <p class="description">Ökologisch und umweltfreundlich.</p>
             </div>
 
             <div class="item">
               <div class="image-wrapper">
-                <img src="images/ueber-uns-items/clock.png" alt="">
+                <img src="images/ueber-uns-items/clock.png" alt="Uhr">
               </div>
               <p class="description">Miete von 1 Tag bis zu einer Woche!</p>
             </div>
@@ -105,14 +111,14 @@
       </div>
 
       <!---PRODUCTS---->
-      <div class=" content-wrap content-wrap-max">
-        <div class="produkt-container">
+      <div class="content-wrap content-wrap-max">
+        <div class="produkt-container" id="products">
           <h2>UNSERE <span>Xcooter</span>!</h2>
           <div class="produkt-container-wrapper">
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter1.jpg" alt="">
+                <img src="images/scooters/scooter1.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -123,7 +129,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter2.jpg" alt="">
+                <img src="images/scooters/scooter2.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -134,7 +140,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter3.jpg" alt="">
+                <img src="images/scooters/scooter3.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -145,7 +151,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter4.jpg" alt="">
+                <img src="images/scooters/scooter4.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -156,7 +162,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter5.jpg" alt="">
+                <img src="images/scooters/scooter5.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -167,7 +173,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter6.jpg" alt="">
+                <img src="images/scooters/scooter6.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -178,7 +184,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter7.jpg" alt="">
+                <img src="images/scooters/scooter7.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -189,7 +195,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter8.jpg" alt="">
+                <img src="images/scooters/scooter8.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -200,7 +206,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter9.jpg" alt="">
+                <img src="images/scooters/scooter9.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -211,7 +217,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter10.jpg" alt="">
+                <img src="images/scooters/scooter10.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -222,7 +228,7 @@
     
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter11.jpg" alt="">
+                <img src="images/scooters/scooter11.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -233,7 +239,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter12.jpg" alt="">
+                <img src="images/scooters/scooter12.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -244,7 +250,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter13.jpg" alt="">
+                <img src="images/scooters/scooter13.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -255,7 +261,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter14.jpg" alt="">
+                <img src="images/scooters/scooter14.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -266,7 +272,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter15.jpg" alt="">
+                <img src="images/scooters/scooter15.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -277,7 +283,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter16.jpg" alt="">
+                <img src="images/scooters/scooter16.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -288,7 +294,7 @@
             
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter17.jpg" alt="">
+                <img src="images/scooters/scooter17.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -299,7 +305,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter18.jpg" alt="">
+                <img src="images/scooters/scooter18.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -310,7 +316,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter19.jpg" alt="">
+                <img src="images/scooters/scooter19.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -321,7 +327,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter20.jpg" alt="">
+                <img src="images/scooters/scooter20.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -332,7 +338,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter21.jpg" alt="">
+                <img src="images/scooters/scooter21.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -343,7 +349,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter22.jpg" alt="">
+                <img src="images/scooters/scooter22.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -354,7 +360,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter23.jpg" alt="">
+                <img src="images/scooters/scooter23.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -365,7 +371,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter24.jpg" alt="">
+                <img src="images/scooters/scooter24.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -376,7 +382,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter25.jpg" alt="">
+                <img src="images/scooters/scooter25.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -387,7 +393,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter26.jpg" alt="">
+                <img src="images/scooters/scooter26.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -398,7 +404,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter27.jpg" alt="">
+                <img src="images/scooters/scooter27.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -409,7 +415,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter28.jpg" alt="">
+                <img src="images/scooters/scooter28.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -420,7 +426,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter29.jpg" alt="">
+                <img src="images/scooters/scooter29.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -431,7 +437,7 @@
 
             <div class="produkt">
               <div class="image-wrapper">
-                <img src="images/scooters/scooter30.jpg" alt="">
+                <img src="images/scooters/scooter30.jpg" alt="Scooter">
               </div>
               <div class="description">
                 <span>Lorem Ipsum Dolor sit amet</span><br>
@@ -450,9 +456,9 @@
         <div class="social-media-bar-mobile">
           <h4>Folgen Sie uns</h4>
           <div class="links">
-            <a href="https://www.instagram.com"><img src="images/icons/instagram.png" alt="#"></a>
-            <a href="https://www.facebook.com"><img src="images/icons/facebook.png" alt="#"></a>
-            <a href="https://twitter.com"><img src="images/icons/twitter.png" alt="#"></a>
+            <a href="https://www.instagram.com"><img src="images/icons/instagram.png" alt="instagram icon"></a>
+            <a href="https://www.facebook.com"><img src="images/icons/facebook.png" alt="facebook icon"></a>
+            <a href="https://twitter.com"><img src="images/icons/twitter.png" alt="twitter icon"></a>
           </div>
         </div>
       </div>
@@ -462,18 +468,18 @@
         <div class="content-wrap content-wrap-small sponsor">
           <h3>Unsere Sponsoren</h3>
           <ul class="top">
-            <li><img src="images/sponsor/benz.png"></li>
-            <li><img src="images/sponsor/edeka.png"></li>
-            <li><img src="images/sponsor/ferrari.png"></li>
-            <li><img src="images/sponsor/intel.png"></li>
-            <li><img src="images/sponsor/ksc.png"></li>
+            <li><img src="images/sponsor/benz.png" alt="mercedes benz logo"></li>
+            <li><img src="images/sponsor/edeka.png" alt=""></li>
+            <li><img src="images/sponsor/ferrari.png"  alt=""></li>
+            <li><img src="images/sponsor/intel.png"  alt=""></li>
+            <li><img src="images/sponsor/ksc.png"  alt=""></li>
           </ul>
           <ul class="bottom">
-            <li><img src="images/sponsor/ryanair.png"></li>
-            <li><img src="images/sponsor/nasa.png"></li>
-            <li><img src="images/sponsor/samsung.png"></li>
-            <li><img src="images/sponsor/tesla.png"></li>
-            <li><img src="images/sponsor/tinder.png"></li>
+            <li><img src="images/sponsor/ryanair.png"  alt="ryanair logo"></li>
+            <li><img src="images/sponsor/nasa.png"  alt="Nasa logo"></li>
+            <li><img src="images/sponsor/samsung.png"  alt="samsung logo"></li>
+            <li><img src="images/sponsor/tesla.png"  alt="tesla logo"></li>
+            <li><img src="images/sponsor/tinder.png"  alt="tinder logo"></li>
           </ul>
         </div>
       </div>
@@ -485,9 +491,9 @@
         <div class="footer-wrap">
           <ul class="kontakt">
             <li>Kontakt</li>
-            <li><img src="images/icons/viber.png">+49 05226 10 00 51</li>
-            <li><img src="images/icons/email.png"><a href="mailto:xcooter@gmail.com" target="_blank">xcooter@gmail.com</a></li>
-            <li><img src="images/icons/time.png">Mo-Sa von 9:00-20:00 Uhr</li>
+            <li><img src="images/icons/viber.png"  alt="Telefon icon">+49 05226 10 00 51</li>
+            <li><img src="images/icons/email.png"  alt="email icon"><a href="mailto:xcooter@gmail.com" target="_blank">xcooter@gmail.com</a></li>
+            <li><img src="images/icons/time.png"  alt="Uhr icon">Mo-Sa von 9:00-20:00 Uhr</li>
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
@@ -499,7 +505,7 @@
           </ul>
           <ul class="payment">
             <li>Sichere Zahlung</li>
-            <li><img src="images/payment.png" alt=""></li>
+            <li><img src="images/payment.png" alt="zahlung möglichkeiten"></li>
           </ul>
         </div>
       </div>
