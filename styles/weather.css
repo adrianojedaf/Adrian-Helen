@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #A3BFE3;
+    background: #FAD586;
     padding: 30px;
     border-radius: 5px;
     width: fit-content;
@@ -16,7 +16,8 @@
 .weather #feed p {
     font-size: 3rem;
     font-weight: bold;
-    color:#2D5CAA;
+    color:#5E454B;
+    color:#34656D;
     margin: 0;
 }
 
@@ -27,7 +28,7 @@
 .weather #note {
     font-size: 1.5rem;
     text-align: center;
-    color: #060e30;
+    color: #1c3135;
 }
 
 .weather h3 {
