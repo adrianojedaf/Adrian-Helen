@@ -20,9 +20,9 @@ function showWeather() {
         if(weather.main.temp <= 3) {
           note.innerHTML = "Seien Sie vorsichtig! Fahren Sie Scooter mit Bedacht.";
         } else if (weather.main.temp < 10) {
-          note.innerHTML = "Halte dich warm, bevor du mit dem Scooter fährst!";
+          note.innerHTML = "Vergewissern Sie sich, dass Sie warm genug sind, bevor Sie die Scooter benutzen. Es ist kalt draußen!";
         } else {
-          note.innerHTML = "Das Wetter ist großartig! Viel Spaß beim Fahren mit dem Scooter";
+          note.innerHTML = "Das Wetter ist großartig! Viel Spaß beim Fahren mit dem Scooter.";
         }
       }
     }
