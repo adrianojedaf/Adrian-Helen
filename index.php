@@ -1,3 +1,22 @@
+<?php
+  session_start();
+
+  require 'account_managment/db.php';
+
+  if (isset($_SESSION['user_id'])) {
+    $records = $conn->prepare('SELECT id, email, password FROM users WHERE id = :id');
+    $records->bindParam(':id', $_SESSION['user_id']);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+
+    $user = null;
+
+    if (count($results) > 0) {
+      $user = $results;
+    }
+  }
+?>
+
 
 <!DOCTYPE html>
 <html lang="de">
@@ -36,12 +55,20 @@
     <header>
       <nav>
         <div class="content-wrap content-wrap-max">
-          <a href="index.html"><image src="images/logo.png" class="logo" alt="logo"></a>
+          <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
-            <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
-            <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
-            <li><a class="anmelden" href="anmeldung.html"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+            <?php if(!empty($user)): ?>
+              <br><p>Welcome. <?= $user['email'] ?></p>
+              <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
+              <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
+              <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+            <?php else: ?>
+              <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
+              <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
+              <li><a class="anmelden" href="account_managment/anmeldung.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+            <?php endif; ?>  
           </ul>
+
         </div>
       </nav>
       
@@ -510,11 +537,11 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="anmeldung.html">Anmelden</a></li>
+            <li><a href="account_managment/anmeldung.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>
-            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="impressum.php">Impressum</a></li>
           </ul>
           <ul class="payment">
             <li>Sichere Zahlung</li>
