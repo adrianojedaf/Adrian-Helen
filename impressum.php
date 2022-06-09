@@ -28,9 +28,9 @@
     <header>
       <nav>
         <div class="content-wrap content-wrap-max">
-          <a href="index.html"><image src="images/logo.png" class="logo" alt="logo"></a>
+          <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
-            <li><a class="anmelden" href="anmeldung.html"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon"></a></li>
+            <li><a class="anmelden" href="account_managment/anmeldung.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon"></a></li>
           </ul>
         </div>
       </nav>
@@ -49,7 +49,7 @@
         Registernummer: AH506743 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE1045888
         Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV: Adrián Ojeda Firgau, Helen Finherman (Anschrift wie oben)</p>
 
-        <a class="link-to-page" href="index.html">Homepage</a>
+        <a class="link-to-page" href="index.php">Homepage</a>
         </div>
       </div>
     </main>
@@ -66,7 +66,7 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="anmeldung.html">Anmelden</a></li>
+            <li><a href="account_managment/anmeldung.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>
