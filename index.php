@@ -58,10 +58,9 @@
           <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
             <?php if(!empty($user)): ?>
-              <br><p class="welcome-user">Herzlich Willkommen, <?= $user['username'] ?></p>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
-              <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+              <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="logout-icon" alt="Anmelden icon"></a></li>
             <?php else: ?>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
@@ -73,6 +72,10 @@
       </nav>
       
       <div class="stage">
+        <?php if(!empty($user)): ?>
+          <br><p class="welcome-user">Herzlich Willkommen, <span><?= $user['username'] ?></span></p>
+        <?php endif; ?> 
+                
         <video autoplay muted loop>
           <source src="videos/stage.mp4" type="video/mp4">
         </video>
