@@ -11,7 +11,10 @@
   --content-padding: 0 100px;
 
   /*Z-indexes*/
-  --z-index-stage: 99;
+
+  --z-index-nav: 999;
+  --z-index-username: 99;
+  --z-index-stage: 98;
   --z-index-1: 1;
 }
 
