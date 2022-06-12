@@ -5,16 +5,17 @@
   $message = '';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
-    $sql = "INSERT INTO users (email, password) VALUES (:email, :password)";
+    $sql = "INSERT INTO users (username, email, password) VALUES (:username, :email, :password)";
     $stmt = $conn->prepare($sql);
+    $stmt->bindParam(':username', $_POST['username']);
     $stmt->bindParam(':email', $_POST['email']);
     $password = password_hash($_POST['password'], PASSWORD_BCRYPT);
     $stmt->bindParam(':password', $password);
 
     if ($stmt->execute()) {
-      $message = 'Successfully created new user';
+      $message = 'Ihre Registrierung war erfolgreich!';
     } else {
-      $message = 'Sorry there must have been an issue creating your account';
+      $message = 'Es tut uns leid. Bei der Registrierung ist ein Fehler aufgetreten.';
     }
   }
 ?>
@@ -25,7 +26,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <!--Page Titel-->
-    <title>COOTER Anmeldung</title>
+    <title>COOTER Registrierung</title>
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +55,7 @@
         <h2>Xcooter</h2>
         <center>oder <a href="login.php">Einloggen</a></center>
 
-        <form action="anmeldung.php" method="post">
+        <form action="register.php" method="post">
           <label for="username">Username:</label>
           <input class="feld" type="text" name="username">
       
