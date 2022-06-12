@@ -62,8 +62,13 @@ main > * + * {
   color: var(--color-white);
   opacity: .8;
   position: absolute;
-  top: 110%;
-  right: 3rem;
+  top: 7rem;
+  z-index: var(--z-index-username);
+}
+
+.welcome-user span {
+  color: var(--color-tertiary);
+  font-weight: bold;
 }
 
 main.impressum  {
