@@ -53,6 +53,7 @@
         <?php endif; ?>
 
         <h2>Xcooter</h2>
+        <h4>Registrieren</h4>
         <center>oder <a href="login.php">Einloggen</a></center>
 
         <form action="register.php" method="post">
@@ -65,7 +66,7 @@
           <label for="password">Passwort:</label>
           <input class="feld" type="password" name="password" required>
 
-          <input class="button" type="submit" value="send"><br>
+          <input class="button" type="submit" value="Profil jetzt erstellen"><br>
         </form>
           
           <a class="link-to-page" href="../index.php">Homepage</a>
