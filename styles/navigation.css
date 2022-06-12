@@ -7,7 +7,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: var(--z-index-stage);
+  z-index: var(--z-index-nav);
 }
 
 nav > .content-wrap-max {
@@ -67,6 +67,13 @@ nav ul li + li {
   margin-left: 5px;
 }
 
+.logout-icon {
+  width: 1.2rem;
+  opacity: .6;
+  margin-left: 5px;
+  filter: invert(27%) sepia(98%) saturate(2444%) hue-rotate(339deg) brightness(101%) contrast(98%);
+}
+
 .about-icon {
   width: 1.3rem;
   opacity: .8;
@@ -118,7 +125,8 @@ nav ul li + li {
     margin-left: 0;
   }
 
-  .login-icon {
+  .login-icon,
+  .logout-icon  {
     width: 1.7rem;
   }
 
