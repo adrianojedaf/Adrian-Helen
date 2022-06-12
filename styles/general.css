@@ -58,6 +58,14 @@ main > * + * {
   padding-right: .2rem;
 }
 
+.welcome-user {
+  color: var(--color-white);
+  opacity: .8;
+  position: absolute;
+  top: 110%;
+  right: 3rem;
+}
+
 main.impressum  {
   margin: 9rem 0 3rem 0;
 }
