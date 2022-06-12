@@ -4,7 +4,7 @@
   require 'account_managment/db.php';
 
   if (isset($_SESSION['user_id'])) {
-    $records = $conn->prepare('SELECT id, email, password FROM users WHERE id = :id');
+    $records = $conn->prepare('SELECT id, username, email, password FROM users WHERE id = :id');
     $records->bindParam(':id', $_SESSION['user_id']);
     $records->execute();
     $results = $records->fetch(PDO::FETCH_ASSOC);
@@ -58,14 +58,14 @@
           <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
             <?php if(!empty($user)): ?>
-              <br><p>Welcome. <?= $user['email'] ?></p>
+              <br><p class="welcome-user">Herzlich Willkommen, <?= $user['username'] ?></p>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
               <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
             <?php else: ?>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
-              <li><a class="anmelden" href="account_managment/anmeldung.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+              <li><a class="anmelden" href="account_managment/register.php"><span>Mein Konto</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
             <?php endif; ?>  
           </ul>
 
@@ -537,7 +537,7 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="account_managment/anmeldung.php">Anmelden</a></li>
+            <li><a href="account_managment/register.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>
