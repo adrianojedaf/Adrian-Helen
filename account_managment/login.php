@@ -3,7 +3,7 @@
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: ./../index.php');
+    header('Location: http://localhost/HHS%20Projekt%20-%20Adrian%20und%20Helen/');
   }
   
   require 'db.php';
@@ -16,11 +16,13 @@
 
     $message = '';
 
+    echo $results;
+    
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header("Location: ./../index.php");
+      header('location: http://localhost/HHS%20Projekt%20-%20Adrian%20und%20Helen/');
     } else {
-      $message = 'Sorry, those credentials do not match';
+      $message = 'Es tut uns leid. Benutzername oder Passwort nicht gefunden.';
     }
   }
 
@@ -60,11 +62,11 @@
         <?php endif; ?>
 
         <h2>Xcooter</h2>
-        <center>oder <a href="anmeldung.php">Anmelden</a></center>
+        <center>oder <a href="register.php">Registrieren</a></center>
 
         <form action="login.php" method="post">
-          <label for="username">Username:</label>
-          <input class="feld" type="text" name="username">
+          <label for="email">Email:</label>
+          <input class="feld" type="email" name="email">
 
           <label for="password">Passwort:</label>
           <input class="feld" type="password" name="password" required>
