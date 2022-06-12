@@ -30,7 +30,7 @@
         <div class="content-wrap content-wrap-max">
           <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
           <ul>
-            <li><a class="anmelden" href="account_managment/anmeldung.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon"></a></li>
+            <li><a class="anmelden" href="account_managment/register.php"><span>Mein Konto</span><img src="images/icons/login.png" class="login-icon"></a></li>
           </ul>
         </div>
       </nav>
@@ -66,7 +66,7 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="account_managment/anmeldung.php">Anmelden</a></li>
+            <li><a href="account_managment/register.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>
