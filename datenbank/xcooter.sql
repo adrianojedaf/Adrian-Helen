@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 12. Jun 2022 um 23:14
+-- Erstellungszeit: 19. Jun 2022 um 23:00
 -- Server-Version: 10.4.21-MariaDB
 -- PHP-Version: 8.0.11
 
@@ -24,11 +24,33 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `reservierungen`
+--
+
+CREATE TABLE `reservierungen` (
+  `id` int(200) NOT NULL,
+  `user_email` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `modell` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `startzeit` date NOT NULL,
+  `endzeit` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Daten für Tabelle `reservierungen`
+--
+
+INSERT INTO `reservierungen` (`id`, `user_email`, `modell`, `startzeit`, `endzeit`) VALUES
+(24, 'test2@gmail.com', 'Yoga 1', '2022-06-14', '2022-06-08'),
+(25, 'test2@gmail.com', 'novalue 2000', '2022-06-20', '2022-06-30');
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `users`
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+  `id` int(200) NOT NULL,
   `username` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(200) COLLATE utf8_unicode_ci NOT NULL
@@ -48,6 +70,12 @@ INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
 --
 
 --
+-- Indizes für die Tabelle `reservierungen`
+--
+ALTER TABLE `reservierungen`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indizes für die Tabelle `users`
 --
 ALTER TABLE `users`
@@ -58,10 +86,16 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT für Tabelle `reservierungen`
+--
+ALTER TABLE `reservierungen`
+  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
+--
 -- AUTO_INCREMENT für Tabelle `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
