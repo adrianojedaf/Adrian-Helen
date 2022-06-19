@@ -3,7 +3,7 @@
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: http://localhost/HHS%20Projekt%20-%20Adrian%20und%20Helen/');
+    header('Location: http://xcooter.epizy.com/');
   }
   
   require 'db.php';
@@ -20,7 +20,7 @@
     
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header('location: http://localhost/HHS%20Projekt%20-%20Adrian%20und%20Helen/');
+      header('location: http://xcooter.epizy.com/');
     } else {
       $message = 'Es tut uns leid. Benutzername oder Passwort nicht gefunden.';
     }

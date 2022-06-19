@@ -21,7 +21,7 @@
           $user = $results;
         }
     } else {
-        header('location: http://localhost/HHS%20Projekt%20-%20Adrian%20und%20Helen/account_managment/register.php');
+        header('location: http://xcooter.epizy.com/account_managment/register.php');
     }
     
     $user_email = $user['email'];
