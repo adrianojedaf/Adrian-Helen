@@ -73,7 +73,7 @@
       
       <div class="stage">
         <?php if(!empty($user)): ?>
-          <br><p class="welcome-user">Herzlich Willkommen, <span><?= $user['username'] ?></span></p>
+          <br><p class="welcome-user">Herzlich Willkommen, <span><?= $user['username'] ?></span> <img src="images/icons/welcome.png" alt="welcome icon"></p>
         <?php endif; ?> 
                 
         <video autoplay muted loop>
