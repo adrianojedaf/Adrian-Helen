@@ -90,16 +90,21 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 0;
     border-bottom: .3rem solid var(--color-black);
 }
+
 .dauer-container input {
-    padding: 10px;
-    margin-left: 10px;
-    width: 80px;
+    margin-bottom: 10px;
+    padding: 5px;
     outline: none;
     border-color: var(--color-tertiary);
+}
+
+.dauer-container div:last-child {
+    margin-left: 10px;
 }
 
 @media(max-width: 1160px) {
