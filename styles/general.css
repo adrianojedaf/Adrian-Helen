@@ -10,13 +10,14 @@ html {
 
 body {
   hyphens: auto;
+  margin: 0;
 }
 
 main {
   max-width: var(--content-width-medium);
   margin: 0 auto;
-  margin-top: 6rem;
-  min-height: calc(100vh - 365px);
+  min-height: calc(100vh - 150px - 173px);
+  margin-top: 150px;
 }
 
 main > * + * {
@@ -79,14 +80,6 @@ main > * + * {
 .welcome-user img {
   width: 35px;
   margin-left: 8px;
-}
-
-main.impressum  {
-  margin: 9rem 0 3rem 0;
-}
-
-main.impressum + footer {
-  margin-top: 3rem;
 }
 
 @media(max-width: 920px) {
