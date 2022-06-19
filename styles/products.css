@@ -86,6 +86,22 @@
     background-color: var(--color-tertiary);
 }
 
+.dauer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: .3rem solid var(--color-black);
+}
+.dauer-container input {
+    padding: 10px;
+    margin-left: 10px;
+    width: 80px;
+    outline: none;
+    border-color: var(--color-tertiary);
+}
+
 @media(max-width: 1160px) {
     .produkt-container-wrapper {
         grid-template-columns: repeat(3, 1fr);
