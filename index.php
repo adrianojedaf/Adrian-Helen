@@ -64,7 +64,7 @@
             <?php else: ?>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
-              <li><a class="anmelden" href="account_managment/register.php"><span>Mein Konto</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+              <li><a class="anmelden" href="account_managment/register.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
             <?php endif; ?>  
           </ul>
 
@@ -145,8 +145,20 @@
 
       <!---PRODUCTS---->
       <div class="content-wrap content-wrap-max">
-        <div class="produkt-container" id="products">
+        <form action="account_managment/reservierungen.php" method="post" class="produkt-container">
           <h2>UNSERE <span>Xcooter</span>!</h2>
+          
+          <div class="dauer-container">
+            <div>
+              <label for="startzeit">Reservierung von: </label>
+              <input class="startzeit" type="date" name="startzeit"><br>
+            </div>
+            <div>
+              <label for="endzeit">bis: </label>
+              <input class="endzeit" type="date" name="endzeit">
+            </div>
+          </div>
+
           <div class="produkt-container-wrapper">
 
             <div class="produkt">
@@ -479,9 +491,9 @@
               </div>
             </div>
 
-            <input type="submit" value="Klicken Sie hier zum Mieten" class="submit">
+            <input type="submit" value="E-SCOOTER BUCHEN" class="submit">
             
-          </div>
+        </form>
         </div>
       </div>
 
