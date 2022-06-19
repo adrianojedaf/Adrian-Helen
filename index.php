@@ -34,7 +34,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <!--Page Favicon-->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <!--CSS Dateien-->
     <link href="styles/content-wrap.css" rel="stylesheet" type="text/css"/>
     <link href="styles/general.css" rel="stylesheet" type="text/css"/>
