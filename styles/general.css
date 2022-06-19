@@ -64,11 +64,17 @@ main > * + * {
   position: absolute;
   top: 7rem;
   z-index: var(--z-index-username);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .welcome-user span {
   color: var(--color-tertiary);
   font-weight: bold;
+  margin-left: 8px;
+}
 
 .welcome-user img {
   width: 35px;
@@ -86,6 +92,13 @@ main.impressum + footer {
 @media(max-width: 920px) {
   main {
     margin-top: 80px;
+  }
+}
+
+@media(max-width: 400px) {
+  .welcome-user {
+   justify-content: center;
+   flex-wrap: wrap;
   }
 }
 
