@@ -155,7 +155,7 @@
               </div>
               <div class="description">
                 <span>Stylus</span><br>
-                <input type="checkbox" name="scooter1" id="scooter1">
+                <input type="radio" name="scooter" value="Stylus" id="scooter1">
                 <label for="scooter1">Escooter auswählen</label>
               </div>
             </div>
@@ -166,7 +166,7 @@
               </div>
               <div class="description">
                 <span>Heuschrecken</span><br>
-                <input type="checkbox" name="scooter2" id="scooter2">
+                <input type="radio" name="scooter" value="Heuschrecken" id="scooter2">
                 <label for="scooter2">Escooter auswählen</label>
               </div>
             </div>
@@ -177,7 +177,7 @@
               </div>
               <div class="description">
                 <span>Bergsteiger</span><br>
-                <input type="checkbox" name="scooter3" id="scooter3">
+                <input type="radio" name="scooter" value="Bergsteiger" id="scooter3">
                 <label for="scooter3">Escooter auswählen</label>
               </div>
             </div>
@@ -188,7 +188,7 @@
               </div>
               <div class="description">
                 <span>Fanta Speed</span><br>
-                <input type="checkbox" name="scooter4" id="scooter4">
+                <input type="radio" name="scooter" value="Fanta Speed" id="scooter4">
                 <label for="scooter4">Escooter auswählen</label>
               </div>
             </div>
@@ -199,7 +199,7 @@
               </div>
               <div class="description">
                 <span>Delphine</span><br>
-                <input type="checkbox" name="scooter5" id="scooter5">
+                <input type="radio" name="scooter" value="Delphine" id="scooter5">
                 <label for="scooter5">Escooter auswählen</label>
               </div>
             </div>
@@ -210,7 +210,7 @@
               </div>
               <div class="description">
                 <span>Stylus evo</span><br>
-                <input type="checkbox" name="scooter6" id="scooter6">
+                <input type="radio" name="scooter" value="Stylus evo" id="scooter6">
                 <label for="scooter6">Escooter auswählen</label>
               </div>
             </div>
@@ -221,7 +221,7 @@
               </div>
               <div class="description">
                 <span>Apollo</span><br>
-                <input type="checkbox" name="scooter7" id="scooter7">
+                <input type="radio" name="scooter" value="Apollo" id="scooter7">
                 <label for="scooter7">Escooter auswählen</label>
               </div>
             </div>
@@ -232,7 +232,7 @@
               </div>
               <div class="description">
                 <span>Maxsteel</span><br>
-                <input type="checkbox" name="scooter8" id="scooter8">
+                <input type="radio" name="scooter" value="Maxsteel" id="scooter8">
                 <label for="scooter8">Escooter auswählen</label>
               </div>
             </div>
@@ -243,7 +243,7 @@
               </div>
               <div class="description">
                 <span>bad boy</span><br>
-                <input type="checkbox" name="scooter9" id="scooter9">
+                <input type="radio" name="scooter" value="bad boy" id="scooter9">
                 <label for="scooter9">Escooter auswählen</label>
               </div>
             </div>
@@ -254,7 +254,7 @@
               </div>
               <div class="description">
                 <span>Blue bird</span><br>
-                <input type="checkbox" name="scooter10" id="scooter10">
+                <input type="radio" name="scooter" value="Blue bird" id="scooter10">
                 <label for="scooter10">Escooter auswählen</label>
               </div>
             </div>
@@ -265,7 +265,7 @@
               </div>
               <div class="description">
                 <span>danger 100</span><br>
-                <input type="checkbox" name="scooter11" id="scooter11">
+                <input type="radio" name="scooter" value="danger 100" id="scooter11">
                 <label for="scooter11">Escooter auswählen</label>
               </div>
             </div>
@@ -276,7 +276,7 @@
               </div>
               <div class="description">
                 <span>vacummix</span><br>
-                <input type="checkbox" name="scooter12" id="scooter12">
+                <input type="radio" name="scooter" value="vacummix" id="scooter12">
                 <label for="scooter12">Escooter auswählen</label>
               </div>
             </div>
@@ -287,7 +287,7 @@
               </div>
               <div class="description">
                 <span>Karl Toffel</span><br>
-                <input type="checkbox" name="scooter13" id="scooter13">
+                <input type="radio" name="scooter" value="Karl Toffel" id="scooter13">
                 <label for="scooter13">Escooter auswählen</label>
               </div>
             </div>
@@ -298,7 +298,7 @@
               </div>
               <div class="description">
                 <span>yiiahoo</span><br>
-                <input type="checkbox" name="scooter14" id="scooter14">
+                <input type="radio" name="scooter" value="yiiahoo" id="scooter14">
                 <label for="scooter14">Escooter auswählen</label>
               </div>
             </div>
@@ -309,7 +309,7 @@
               </div>
               <div class="description">
                 <span>Clown</span><br>
-                <input type="checkbox" name="scooter15" id="scooter15">
+                <input type="radio" name="scooter" value="Clown" id="scooter15">
                 <label for="scooter15">Escooter auswählen</label>
               </div>
             </div>
@@ -320,7 +320,7 @@
               </div>
               <div class="description">
                 <span>Jack</span><br>
-                <input type="checkbox" name="scooter16" id="scooter16">
+                <input type="radio" name="scooter" value="Jack" id="scooter16">
                 <label for="scooter16">Escooter auswählen</label>
               </div>
             </div>
@@ -331,7 +331,7 @@
               </div>
               <div class="description">
                 <span>sparrow</span><br>
-                <input type="checkbox" name="scooter17" id="scooter17">
+                <input type="radio" name="scooter" value="sparrow" id="scooter17">
                 <label for="scooter17">Escooter auswählen</label>
               </div>
             </div>
@@ -342,7 +342,7 @@
               </div>
               <div class="description">
                 <span>nuggeti</span><br>
-                <input type="checkbox" name="scooter18" id="scooter18">
+                <input type="radio" name="scooter" value="nuggeti" id="scooter18">
                 <label for="scooter18">Escooter auswählen</label>
               </div>
             </div>
@@ -353,7 +353,7 @@
               </div>
               <div class="description">
                 <span>delieberoo</span><br>
-                <input type="checkbox" name="scooter19" id="scooter19">
+                <input type="radio" name="scooter" value="delieberoo" id="scooter19">
                 <label for="scooter19">Escooter auswählen</label>
               </div>
             </div>
@@ -363,8 +363,8 @@
                 <img src="images/scooters/scooter20.jpg" alt="Scooter">
               </div>
               <div class="description">
-                <span>noname 2000</span><br>
-                <input type="checkbox" name="scooter20" id="scooter20">
+                <span>novalue 2000</span><br>
+                <input type="radio" name="scooter" value="novalue 2000" id="scooter20">
                 <label for="scooter20">Escooter auswählen</label>
               </div>
             </div>
@@ -375,7 +375,7 @@
               </div>
               <div class="description">
                 <span>Black Cosmos</span><br>
-                <input type="checkbox" name="scooter21" id="scooter21">
+                <input type="radio" name="scooter" value="Black Cosmos" id="scooter21">
                 <label for="scooter21">Escooter auswählen</label>
               </div>
             </div>
@@ -386,7 +386,7 @@
               </div>
               <div class="description">
                 <span>Blue Cosmos</span><br>
-                <input type="checkbox" name="scooter22" id="scooter22">
+                <input type="radio" name="scooter" value="Blue Cosmos" id="scooter22">
                 <label for="scooter22">Escooter auswählen</label>
               </div>
             </div>
@@ -397,7 +397,7 @@
               </div>
               <div class="description">
                 <span>Yoga 1</span><br>
-                <input type="checkbox" name="scooter23" id="scooter23">
+                <input type="radio" name="scooter" value="Yoga 1" id="scooter23">
                 <label for="scooter23">Escooter auswählen</label>
               </div>
             </div>
@@ -408,7 +408,7 @@
               </div>
               <div class="description">
                 <span>Pinkachu</span><br>
-                <input type="checkbox" name="scooter24" id="scooter24">
+                <input type="radio" name="scooter" value="Pinkachu" id="scooter24">
                 <label for="scooter24">Escooter auswählen</label>
               </div>
             </div>
@@ -419,7 +419,7 @@
               </div>
               <div class="description">
                 <span>Toad</span><br>
-                <input type="checkbox" name="scooter25" id="scooter25">
+                <input type="radio" name="scooter" value="Toad" id="scooter25">
                 <label for="scooter25">Escooter auswählen</label>
               </div>
             </div>
@@ -430,7 +430,7 @@
               </div>
               <div class="description">
                 <span>iamspeed</span><br>
-                <input type="checkbox" name="scooter26" id="scooter26">
+                <input type="radio" name="scooter" value="iamspeed" id="scooter26">
                 <label for="scooter26">Escooter auswählen</label>
               </div>
             </div>
@@ -441,7 +441,7 @@
               </div>
               <div class="description">
                 <span>Grandma-ster</span><br>
-                <input type="checkbox" name="scooter27" id="scooter27">
+                <input type="radio" name="scooter" value="Grandma-ster" id="scooter27">
                 <label for="scooter27">Escooter auswählen</label>
               </div>
             </div>
@@ -452,7 +452,7 @@
               </div>
               <div class="description">
                 <span>King boo</span><br>
-                <input type="checkbox" name="scooter28" id="scooter28">
+                <input type="radio" name="scooter" value="King boo" id="scooter28">
                 <label for="scooter28">Escooter auswählen</label>
               </div>
             </div>
@@ -463,7 +463,7 @@
               </div>
               <div class="description">
                 <span>Yoga 2</span><br>
-                <input type="checkbox" name="scooter29" id="scooter29">
+                <input type="radio" name="scooter" value="Yoga 2" id="scooter29">
                 <label for="scooter29">Escooter auswählen</label>
               </div>
             </div>
@@ -474,7 +474,7 @@
               </div>
               <div class="description">
                 <span>Molly</span><br>
-                <input type="checkbox" name="scooter30" id="scooter30">
+                <input type="radio" name="scooter" value="Molly" id="scooter30">
                 <label for="scooter30">Escooter auswählen</label>
               </div>
             </div>
