@@ -1,3 +1,21 @@
+<?php
+  session_start();
+
+  require 'account_managment/db.php';
+
+  if (isset($_SESSION['user_id'])) {
+    $records = $conn->prepare('SELECT id, username, email, password FROM users WHERE id = :id');
+    $records->bindParam(':id', $_SESSION['user_id']);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+
+    $user = null;
+
+    if (count($results) > 0) {
+      $user = $results;
+    }
+  }
+?>
 
 <!DOCTYPE html>
 <html lang="de">
@@ -26,14 +44,19 @@
   <body>
 
     <header>
-      <nav>
-        <div class="content-wrap content-wrap-max">
-          <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
-          <ul>
-            <li><a class="anmelden" href="account_managment/register.php"><span>Mein Konto</span><img src="images/icons/login.png" class="login-icon"></a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav>
+            <div class="content-wrap content-wrap-max">
+            <a href="index.php"><image src="images/logo.png" class="logo" alt="logo"></a>
+            <ul>
+                <?php if(!empty($user)): ?>
+                <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="logout-icon" alt="Anmelden icon"></a></li>
+                <?php else: ?>
+                <li><a class="anmelden" href="account_managment/register.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+                <?php endif; ?>  
+            </ul>
+
+            </div>
+        </nav>
     </header>
     
     <!-- IMPRESSUM -->
