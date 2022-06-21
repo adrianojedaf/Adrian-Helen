@@ -100,7 +100,7 @@
         <div class="ueber-uns" id="about">
           <h2>Wir sind <span>Xcooter</span>!</h2>
           <p>Seit 2020 sind wir für Sie da!<br>
-          Jetzt können Sie die besten Scooter auf dem heutigen Markt mieten und nutzen. Genießen Sie den besten Service zum besten Preis. Darüber hinaus ist sehr einfach, mit der Nutzung unserer Scooter-Services zu beninnen!</p>
+          Jetzt können Sie die besten E-Scooter, die es auf dem aktuellen Markt gibt, nutzen. Genießen Sie den besten Service zum besten Preis. Darüberhinaus ist es sehr einfach, unseren E-Scooter-Service zu nutzen.</p>
         </div>
       </div>
 
@@ -115,14 +115,14 @@
                 <img src="images/ueber-uns-items/price.png" alt="Dollar symbol">
               </div>
               <p class="description">Bester Service zum besten Preis!<br>
-                15 Euro pro Tag</p>
+                15 Euro pro Tag.</p>
             </div>
   
             <div class="item">
               <div class="image-wrapper">
                 <img src="images/ueber-uns-items/easy.png" alt="Hand">
               </div>
-              <p class="description">Einfach zu mieten und zu benutzen</p>
+              <p class="description">Einfach zu mieten und zu benutzen.</p>
             </div>
   
             <div class="item">
@@ -136,7 +136,7 @@
               <div class="image-wrapper">
                 <img src="images/ueber-uns-items/clock.png" alt="Uhr">
               </div>
-              <p class="description">Miete von 1 Tag bis zu einer Woche!</p>
+              <p class="description">Mieten Sie E-Scooter jederzeit!</p>
             </div>
 
           </div>
@@ -168,7 +168,7 @@
               <div class="description">
                 <span>Stylus</span><br>
                 <input type="radio" name="scooter" value="Stylus" id="scooter1">
-                <label for="scooter1">Escooter auswählen</label>
+                <label for="scooter1">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -179,7 +179,7 @@
               <div class="description">
                 <span>Heuschrecken</span><br>
                 <input type="radio" name="scooter" value="Heuschrecken" id="scooter2">
-                <label for="scooter2">Escooter auswählen</label>
+                <label for="scooter2">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -190,7 +190,7 @@
               <div class="description">
                 <span>Bergsteiger</span><br>
                 <input type="radio" name="scooter" value="Bergsteiger" id="scooter3">
-                <label for="scooter3">Escooter auswählen</label>
+                <label for="scooter3">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -201,7 +201,7 @@
               <div class="description">
                 <span>Fanta Speed</span><br>
                 <input type="radio" name="scooter" value="Fanta Speed" id="scooter4">
-                <label for="scooter4">Escooter auswählen</label>
+                <label for="scooter4">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -210,9 +210,9 @@
                 <img src="images/scooters/scooter5.jpg" alt="Scooter">
               </div>
               <div class="description">
-                <span>Delphine</span><br>
+                <span>Delfin</span><br>
                 <input type="radio" name="scooter" value="Delphine" id="scooter5">
-                <label for="scooter5">Escooter auswählen</label>
+                <label for="scooter5">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -223,7 +223,7 @@
               <div class="description">
                 <span>Stylus evo</span><br>
                 <input type="radio" name="scooter" value="Stylus evo" id="scooter6">
-                <label for="scooter6">Escooter auswählen</label>
+                <label for="scooter6">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -234,7 +234,7 @@
               <div class="description">
                 <span>Apollo</span><br>
                 <input type="radio" name="scooter" value="Apollo" id="scooter7">
-                <label for="scooter7">Escooter auswählen</label>
+                <label for="scooter7">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -245,7 +245,7 @@
               <div class="description">
                 <span>Maxsteel</span><br>
                 <input type="radio" name="scooter" value="Maxsteel" id="scooter8">
-                <label for="scooter8">Escooter auswählen</label>
+                <label for="scooter8">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -256,7 +256,7 @@
               <div class="description">
                 <span>bad boy</span><br>
                 <input type="radio" name="scooter" value="bad boy" id="scooter9">
-                <label for="scooter9">Escooter auswählen</label>
+                <label for="scooter9">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -267,7 +267,7 @@
               <div class="description">
                 <span>Blue bird</span><br>
                 <input type="radio" name="scooter" value="Blue bird" id="scooter10">
-                <label for="scooter10">Escooter auswählen</label>
+                <label for="scooter10">E-Scooter auswählen</label>
               </div>
             </div>
     
@@ -278,7 +278,7 @@
               <div class="description">
                 <span>danger 100</span><br>
                 <input type="radio" name="scooter" value="danger 100" id="scooter11">
-                <label for="scooter11">Escooter auswählen</label>
+                <label for="scooter11">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -289,7 +289,7 @@
               <div class="description">
                 <span>vacummix</span><br>
                 <input type="radio" name="scooter" value="vacummix" id="scooter12">
-                <label for="scooter12">Escooter auswählen</label>
+                <label for="scooter12">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -300,7 +300,7 @@
               <div class="description">
                 <span>Karl Toffel</span><br>
                 <input type="radio" name="scooter" value="Karl Toffel" id="scooter13">
-                <label for="scooter13">Escooter auswählen</label>
+                <label for="scooter13">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -311,7 +311,7 @@
               <div class="description">
                 <span>yiiahoo</span><br>
                 <input type="radio" name="scooter" value="yiiahoo" id="scooter14">
-                <label for="scooter14">Escooter auswählen</label>
+                <label for="scooter14">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -322,7 +322,7 @@
               <div class="description">
                 <span>Clown</span><br>
                 <input type="radio" name="scooter" value="Clown" id="scooter15">
-                <label for="scooter15">Escooter auswählen</label>
+                <label for="scooter15">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -333,7 +333,7 @@
               <div class="description">
                 <span>Jack</span><br>
                 <input type="radio" name="scooter" value="Jack" id="scooter16">
-                <label for="scooter16">Escooter auswählen</label>
+                <label for="scooter16">E-Scooter auswählen</label>
               </div>
             </div>
             
@@ -344,7 +344,7 @@
               <div class="description">
                 <span>sparrow</span><br>
                 <input type="radio" name="scooter" value="sparrow" id="scooter17">
-                <label for="scooter17">Escooter auswählen</label>
+                <label for="scooter17">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -355,7 +355,7 @@
               <div class="description">
                 <span>nuggeti</span><br>
                 <input type="radio" name="scooter" value="nuggeti" id="scooter18">
-                <label for="scooter18">Escooter auswählen</label>
+                <label for="scooter18">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -366,7 +366,7 @@
               <div class="description">
                 <span>delieberoo</span><br>
                 <input type="radio" name="scooter" value="delieberoo" id="scooter19">
-                <label for="scooter19">Escooter auswählen</label>
+                <label for="scooter19">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -377,7 +377,7 @@
               <div class="description">
                 <span>novalue 2000</span><br>
                 <input type="radio" name="scooter" value="novalue 2000" id="scooter20">
-                <label for="scooter20">Escooter auswählen</label>
+                <label for="scooter20">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -388,7 +388,7 @@
               <div class="description">
                 <span>Black Cosmos</span><br>
                 <input type="radio" name="scooter" value="Black Cosmos" id="scooter21">
-                <label for="scooter21">Escooter auswählen</label>
+                <label for="scooter21">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -399,7 +399,7 @@
               <div class="description">
                 <span>Blue Cosmos</span><br>
                 <input type="radio" name="scooter" value="Blue Cosmos" id="scooter22">
-                <label for="scooter22">Escooter auswählen</label>
+                <label for="scooter22">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -410,7 +410,7 @@
               <div class="description">
                 <span>Yoga 1</span><br>
                 <input type="radio" name="scooter" value="Yoga 1" id="scooter23">
-                <label for="scooter23">Escooter auswählen</label>
+                <label for="scooter23">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -421,7 +421,7 @@
               <div class="description">
                 <span>Pinkachu</span><br>
                 <input type="radio" name="scooter" value="Pinkachu" id="scooter24">
-                <label for="scooter24">Escooter auswählen</label>
+                <label for="scooter24">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -432,7 +432,7 @@
               <div class="description">
                 <span>Toad</span><br>
                 <input type="radio" name="scooter" value="Toad" id="scooter25">
-                <label for="scooter25">Escooter auswählen</label>
+                <label for="scooter25">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -443,7 +443,7 @@
               <div class="description">
                 <span>iamspeed</span><br>
                 <input type="radio" name="scooter" value="iamspeed" id="scooter26">
-                <label for="scooter26">Escooter auswählen</label>
+                <label for="scooter26">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -454,7 +454,7 @@
               <div class="description">
                 <span>Grandma-ster</span><br>
                 <input type="radio" name="scooter" value="Grandma-ster" id="scooter27">
-                <label for="scooter27">Escooter auswählen</label>
+                <label for="scooter27">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -465,7 +465,7 @@
               <div class="description">
                 <span>King boo</span><br>
                 <input type="radio" name="scooter" value="King boo" id="scooter28">
-                <label for="scooter28">Escooter auswählen</label>
+                <label for="scooter28">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -476,7 +476,7 @@
               <div class="description">
                 <span>Yoga 2</span><br>
                 <input type="radio" name="scooter" value="Yoga 2" id="scooter29">
-                <label for="scooter29">Escooter auswählen</label>
+                <label for="scooter29">E-Scooter auswählen</label>
               </div>
             </div>
 
@@ -487,7 +487,7 @@
               <div class="description">
                 <span>Molly</span><br>
                 <input type="radio" name="scooter" value="Molly" id="scooter30">
-                <label for="scooter30">Escooter auswählen</label>
+                <label for="scooter30">E-Scooter auswählen</label>
               </div>
             </div>
 
