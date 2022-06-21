@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 19. Jun 2022 um 23:00
+-- Erstellungszeit: 21. Jun 2022 um 22:31
 -- Server-Version: 10.4.21-MariaDB
 -- PHP-Version: 8.0.11
 
@@ -41,7 +41,9 @@ CREATE TABLE `reservierungen` (
 
 INSERT INTO `reservierungen` (`id`, `user_email`, `modell`, `startzeit`, `endzeit`) VALUES
 (24, 'test2@gmail.com', 'Yoga 1', '2022-06-14', '2022-06-08'),
-(25, 'test2@gmail.com', 'novalue 2000', '2022-06-20', '2022-06-30');
+(25, 'test2@gmail.com', 'novalue 2000', '2022-06-20', '2022-06-30'),
+(26, 'adrian@gmail.com', 'Apollo', '2022-06-20', '2022-06-22'),
+(27, 'Helen@gmail.com', 'yiiahoo', '2022-06-06', '2022-07-21');
 
 -- --------------------------------------------------------
 
@@ -63,7 +65,9 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `username`, `email`, `password`) VALUES
 (1, 'test1', 'test1@gmail.com', '$2y$10$YHZaIprvq.ndQ3O55QVwPezBv0uJ1dCe3SpG7J20Ohd7ufEsJJNtO'),
 (6, 'test2', 'test2@gmail.com', '$2y$10$3L9qn4vdJS10LNiiRt8ZX.PlFI.nvgPFiehH.XMD3/hF2Gxa2uavO'),
-(7, 'test3', 'test3@gmail.com', '$2y$10$ExRxvY1Tmtcx3DEB/Wb2.OzBGxfbI.qE/SqHtLjKi9NZfxk9zEqBi');
+(7, 'test3', 'test3@gmail.com', '$2y$10$ExRxvY1Tmtcx3DEB/Wb2.OzBGxfbI.qE/SqHtLjKi9NZfxk9zEqBi'),
+(10, 'Adrian', 'adrian@gmail.com', '$2y$10$WpRZ0zkwDZadr/C21bA9EeGk7NcvgK1TvJmrm5hQlJ6v9/LEXgYTq'),
+(11, 'Helen', 'Helen@gmail.com', '$2y$10$IG7r/k1AVTb62RqrkeFk1./ysEtwxzF9jw6AmT4yvbbVIczL04ari');
 
 --
 -- Indizes der exportierten Tabellen
@@ -89,13 +93,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT für Tabelle `reservierungen`
 --
 ALTER TABLE `reservierungen`
-  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT für Tabelle `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(200) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
