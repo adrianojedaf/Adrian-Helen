@@ -64,7 +64,7 @@
             <?php else: ?>
               <li><a class="ueber-uns" href="#about"><span>Über uns</span><img src="images/icons/ueberuns.png" class="about-icon" alt="über uns icon"></a></li>
               <li><a class="produkte" href="#products"><span>Produkte</span><img src="images/icons/shopping.png" class="shopping-icon" alt="Produkte icon"></a></li>
-              <li><a class="anmelden" href="account_managment/register.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+              <li><a class="anmelden" href="account_managment/login.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
             <?php endif; ?>  
           </ul>
 
@@ -552,7 +552,7 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="account_managment/register.php">Anmelden</a></li>
+            <li><a href="account_managment/login.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>

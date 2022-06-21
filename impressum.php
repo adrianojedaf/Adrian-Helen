@@ -51,7 +51,7 @@
                 <?php if(!empty($user)): ?>
                 <li><a class="anmelden" href="account_managment/logout.php"><span>logout</span><img src="images/icons/login.png" class="logout-icon" alt="Anmelden icon"></a></li>
                 <?php else: ?>
-                <li><a class="anmelden" href="account_managment/register.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
+                <li><a class="anmelden" href="account_managment/login.php"><span>Anmelden</span><img src="images/icons/login.png" class="login-icon" alt="Anmelden icon"></a></li>
                 <?php endif; ?>  
             </ul>
 
@@ -89,11 +89,11 @@
           </ul>
           <ul class="Kundenkonto">
             <li>kundenkonto</li>
-            <li><a href="account_managment/register.php">Anmelden</a></li>
+            <li><a href="account_managment/login.php">Anmelden</a></li>
           </ul>
           <ul class="informationen">
             <li>Informationen</li>
-            <li><a href="">Impressum</a></li>
+            <li><a href="impressum.php">Impressum</a></li>
           </ul>
           <ul class="payment">
             <li>Sichere Zahlung</li>

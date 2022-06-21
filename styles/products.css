@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.produkt-container h2 span{
+.produkt-container h2 span {
     border: 3px solid var(--color-secondary);
     padding: 0 5px;
     border-radius: 5px;
@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.produkt span{
+.produkt span {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.4rem;
@@ -119,6 +119,21 @@
         grid-template-columns: repeat(2, 1fr);
         max-height: 400px;
     }    
+}
+
+@media(max-width: 460px) {
+    .dauer-container div:first-child, .dauer-container div:last-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: unset;
+    }
+
+    .dauer-container input {
+        margin-top: 5px;
+    }
 }
 
 @media(max-width: 400px) {

@@ -1,5 +1,5 @@
 <?php
-// php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird
+  // php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird
   error_reporting(E_ERROR | E_PARSE);
 
   $scooter_name = $_POST['scooter'];
@@ -21,7 +21,7 @@
           $user = $results;
         }
     } else {
-        header('location: http://xcooter.epizy.com/account_managment/register.php');
+        header('location: http://localhost/xcooter/account_managment/login.php');
     }
     
     $user_email = $user['email'];

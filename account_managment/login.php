@@ -1,9 +1,11 @@
 <?php
+  // php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird
+  error_reporting(E_ERROR | E_PARSE);
 
   session_start();
 
   if (isset($_SESSION['user_id'])) {
-    header('Location: http://xcooter.epizy.com/index.php');
+    header('Location: http://localhost/xcooter/');
   }
   
   require 'db.php';
@@ -20,14 +22,12 @@
     
     if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
       $_SESSION['user_id'] = $results['id'];
-      header('location: http://xcooter.epizy.com/index.php');
+      header('location: http://localhost/xcooter/');
     } else {
       $message = 'Es tut uns leid. Benutzername oder Passwort nicht gefunden.';
     }
   }
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="de">
@@ -63,7 +63,7 @@
 
         <h2>Xcooter</h2>
         <h4>Einloggen</h4>
-        <center>oder <a href="register.php">Registrieren</a></center>
+        <center>Noch kein Kunde? <a href="register.php">Jetzt registrieren.</a></center>
 
         <form action="login.php" method="post">
           <label for="email">Email:</label>

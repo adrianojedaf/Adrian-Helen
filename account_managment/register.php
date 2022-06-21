@@ -1,8 +1,10 @@
 <?php
+  // php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird
+  error_reporting(E_ERROR | E_PARSE);
 
   require 'db.php';
 
-  $message = '';
+  $messageError = '';
 
   if (!empty($_POST['email']) && !empty($_POST['password'])) {
     $sql = "INSERT INTO users (username, email, password) VALUES (:username, :email, :password)";
@@ -13,9 +15,9 @@
     $stmt->bindParam(':password', $password);
 
     if ($stmt->execute()) {
-      $message = 'Ihre Registrierung war erfolgreich!';
+      require 'login.php';
     } else {
-      $message = 'Es tut uns leid. Bei der Registrierung ist ein Fehler aufgetreten.';
+      $messageError = 'Es tut uns leid. Bei der Registrierung ist ein Fehler aufgetreten.';
     }
   }
 ?>
@@ -48,8 +50,8 @@
     <div class="anmeldung-container">
       <div class="anmeldung">
 
-        <?php  if(!empty($message)): ?>
-          <center><p><?= $message ?></p></center>
+        <?php  if(!empty($messageError)): ?>
+          <center><p><?= $messageError ?></p></center>
         <?php endif; ?>
 
         <h2>Xcooter</h2>
