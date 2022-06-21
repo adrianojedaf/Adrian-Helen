@@ -86,7 +86,7 @@
                 <div class="reservierungsdaten">
                     <?php echo '<h3>Ihre Buchungsdaten:</h3> <br>'?>
                     <?php echo 'Nutzer: ' . $user_email . '. <br><br>' ?>
-                    <?php echo 'Sie haben erfolgreich der e-scooter: ' . '<strong>' . $scooter_name . '</strong>' . ' gebucht. <br>' ?>    
+                    <?php echo 'Sie haben erfolgreich den E-Scooter: ' . '<strong>' . $scooter_name . '</strong>' . ' gebucht. <br>' ?>    
                     <?php echo 'Buchung <strong>von</strong>: ' . $startzeit . '. ' . '<strong>bis</strong>: ' . $endzeit . '.<br><br>'?> 
                     <a class="link-to-page" href="../index.php">Homepage</a>    
                 </div>
@@ -94,7 +94,7 @@
         <?php else: ?>
             <div class="content-wrap content-wrap-max">
                 <div class="reservierungsdaten">
-                    <?php echo 'Sie haben keinen E-Scooter oder Buchungszeit ausgewählt. Bitte wählen Sie zunächst einen E-Scooter aus, um eine Buchung vorzunehmen. <br><br>'?>
+                    <?php echo 'Sie haben keinen E-Scooter oder Buchungszeit ausgewählt. Bitte wählen Sie zunächst einen E-Scooter und den Buchungszeitraum aus, um eine Buchung vorzunehmen. <br><br>'?>
                     <a class="link-to-page" href="../index.php">Homepage</a>  
                 </div>
             <div>
