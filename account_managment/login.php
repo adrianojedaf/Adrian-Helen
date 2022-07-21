@@ -1,5 +1,5 @@
 <?php
-  // php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird
+  // php-Fehlermeldung entfernen, um zu verhindern, dass html-Speicherplatz belegt wird.
   error_reporting(E_ERROR | E_PARSE);
 
   session_start();
